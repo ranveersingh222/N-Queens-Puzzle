@@ -214,8 +214,8 @@ playButton.onclick = async function visualise() {
             for (let j = 0; j < n; ++j) {
                 const col = row.insertCell(j); // inserting jth column
                 (i + j) & 1
-                    ? (col.style.backgroundColor = "#FF9F1C")
-                    : (col.style.backgroundColor = "#FCCD90");
+                    ? (col.style.backgroundColor = "#F5DEB3")
+                    : (col.style.backgroundColor = "#8B4513");
                 col.innerHTML = "-";
                 col.style.border = "0.3px solid #373f51";
             }
